@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .categoriesWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .categoryCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .categoryCard:hover {
+    transform: scale(1.1);
+  }
+  
+  .categoryImage {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .categoryText {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .itemsWrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .itemCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .itemImage {
+    width: 100px; /* Mindre størrelse */
+    height: 100px; /* Mindre størrelse */
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .itemText {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .itemsWrapper {
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+  
+    .itemImage {
+      width: 80px; /* Gør billederne mindre på mobil */
+      height: 80px;
+    }
+  }

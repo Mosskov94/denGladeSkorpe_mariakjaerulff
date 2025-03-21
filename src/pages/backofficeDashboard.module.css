@@ -1,0 +1,67 @@
+.dashboardContainer {
+    width: 90%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: left;
+  }
+  
+  a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .dishTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .dishTable th, .dishTable td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .dishTable th {
+    background-color: #f4f4f4;
+  }
+  
+  .dishImage {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  .formsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .addDishForm, .updateDishForm {
+    width: 45%;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .addDishBtn, .updateDishBtn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .updateDishBtn {
+    background-color: #008CBA;
+  }
+  

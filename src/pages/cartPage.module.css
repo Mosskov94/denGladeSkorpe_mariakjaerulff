@@ -1,0 +1,49 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cartItems {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .cartItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .removeButton {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .removeButton:hover {
+    background-color: darkred;
+  }
+  
+  .checkoutButton {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .checkoutButton:hover {
+    background-color: darkgreen;
+  }
+  

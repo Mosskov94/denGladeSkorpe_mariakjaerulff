@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#root {
+    font-family: "Kurale", serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.appContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+/* Footer i bunden
+footer {
+  background-color: #3d3d3d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+} */

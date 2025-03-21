@@ -1,0 +1,28 @@
+.footer {
+    background-color: #3d3d3d; /* Mørk baggrund som i billedet */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100px; /* Juster størrelsen så den passer */
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .info {
+    font-size: 16px;
+  }
+  
+  .info p {
+    margin: 5px 0;
+  }
+  
