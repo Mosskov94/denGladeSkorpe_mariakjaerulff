@@ -11,14 +11,15 @@ import Personale from "./pages/Personale";
 import KontaktPage from "./pages/KontaktPage";
 import DishPage from "./pages/DishPage";
 import CartPage from "./pages/CartPage";
-import Backoffice from "./pages/Backoffice";
-import BackofficeDashboard from "./pages/BackofficeDashboard";
+
 
 // Kurv-kontext (gør det muligt at gemme ting i kurven)
 import { CartProvider } from "./context/CartContext";
 
 // Global styling
 import "./App.css";
+import Backoffice from "./pages/backoffice/Backoffice";
+import BackofficeDashboard from "./pages/backoffice/BackofficeDashboard";
 
 function App() {
   return (
